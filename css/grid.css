@@ -1,0 +1,32 @@
+/*.grid is currently embeded in the main html element*/
+.grid{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto-fit;
+  grid-gap: 10px;
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  grid-template-rows: 100px minmax(300px, 1fr) 100px;
+  grid-gap: 10px;
+  grid-template-areas:
+  ". header ."
+  ". main ."
+  "footer footer footer";
+}
+
+header{
+  grid-area: header;
+}
+
+main{
+grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+}

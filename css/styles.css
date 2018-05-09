@@ -1,0 +1,24 @@
+/* .navbar-light .navbar-nav .nav-link {
+    color: #f19eff;
+} */
+
+.nav-item .nav-link .active{
+  color: #f19eff;
+}
+
+.card{
+  background-color: rgba(193,193,190,0.15);
+  margin-left: 2em;
+}
+
+.bg-light {
+    background-color: #faf8f81a !important;
+  }
+
+.card-text{
+  color: #e97df4;
+}
+
+.card-title{
+  color: #e97df4;
+}

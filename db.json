@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "username": "Stephan",
+      "password": "YesMan",
+      "id": 1
+    },
+    {
+      "username": "Stephan",
+      "password": "YesMan",
+      "id": 2
+    },
+    {
+      "username": "Stephan",
+      "password": "YesMan",
+      "id": 3
+    },
+    {
+      "username": "Stephan",
+      "password": "YesMan",
+      "id": 4
+    },
+    {
+      "username": "real",
+      "password": "person",
+      "id": 5
+    },
+    {
+      "username": "clint",
+      "password": "yesSir",
+      "id": 6
+    },
+    {
+      "username": "clint",
+      "password": "yesSir",
+      "id": 7
+    },
+    {
+      "username": "clint",
+      "password": "yesSir",
+      "id": 8
+    },
+    {
+      "username": "sdf",
+      "password": "dfgdfg",
+      "email": "sfs@sdfsdf",
+      "id": 9
+    },
+    {
+      "username": "sacjhdu",
+      "password": "schgdshc",
+      "email": "sdvsdvsvd@dfxg",
+      "id": 10
+    },
+    {
+      "username": "cfsdvc",
+      "password": "sdvcsf",
+      "email": "sdfdf@dfgf",
+      "id": 11
+    },
+    {
+      "username": "sdvsf",
+      "password": "sgsgf",
+      "email": "sdsd@dfv",
+      "id": 12
+    }
+  ]
+}
